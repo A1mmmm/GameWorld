@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск игр - Game World</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG\console (1).png" type="image/x-icon">
+</head>
+
+<body class="body2">
+    <header class="header">
+        <div class="burger_menu">
+            <span class="burger"></span>
+            <span class="burger"></span>
+            <span class="burger"></span>
+        </div>
+
+        <div class="header_logo">
+            <div class="logo"></div>
+            <div class="header_name" onclick="location.href='index.html'">Game World</div>
+        </div>
+
+        <!-- <div class="header_favorites">
+            <div class="header_star"></div>
+            <div class="header_text star_text" onclick="location.href='favorites.html'">
+                Избранное<div class="cursor"></div>
+            </div>
+        </div> -->
+        <div class="header_text support" onclick="location.href='support.html'">Поддержка<div class="cursor"></div>
+        </div>
+
+        <div class="header_text buys" onclick="location.href='myfiles.html'">Мои покупки<div class="cursor"></div>
+        </div>
+
+        <div class="header_search">
+            <div class="search_icon"></div>
+            <div class="header_text search" style="color:#2AA5A0;" onclick="location.href='search.html'">Поиск игр<div
+                    class="cursor"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="burger_container">
+        <div class="header_text2 support2" onclick="location.href='support.html'">Поддержка<div class="cursor"></div>
+        </div>
+        <div class="header_text2 buys2" onclick="location.href='myfiles.html'">Мои покупки<div class="cursor"></div>
+        </div>
+    </div>
+
+    <main class="main2">
+        <div class="main_el">
+            <div class="navigation">
+                <div class="back" onclick="location.href='index.html'">Главное</div>
+                <div class="sl"> &nbsp > &nbsp </div>
+                <div class="fav" onclick="location.href='search.html'">Поиск игр</div>
+            </div>
+
+            <!-- <div class="big_fav"></div> -->
+            <form>
+                <p><input type="search" name="q" class="poiskovaya_stroka" placeholder="Поиск по сайту">
+                    <input type="button" value="Найти" class="naiti">
+                </p>
+            </form>
+            <div class="big_fav ne_naideno">Игра не найдена</div>
+        </div>
+    </main>
+</body>
+<script src="JS/search.js"></script>
+
+</html>
